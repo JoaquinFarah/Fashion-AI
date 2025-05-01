@@ -6,9 +6,9 @@ import { Star, User } from 'lucide-react';
 
 // Placeholder Data (replace with actual fetched data later)
 const featuredImages = [
-  { id: 'feat1', url: 'placeholder', alt: 'Futuristic fashion outfit', description: 'Edgy street style with neon accents', score: 4.8, user: 'CyberStylez' },
-  { id: 'feat2', url: 'placeholder', alt: 'Elegant techwear dress', description: 'Minimalist techwear elegance', score: 4.5, user: 'CodeCouture' },
-  { id: 'feat3', url: 'placeholder', alt: 'Abstract digital pattern clothing', description: 'Avant-garde digital print', score: 4.2, user: 'PixelPioneer' },
+  { id: 'feat1', url: 'placeholder', alt: 'Dreaming pleace', description: 'Nature showing why AI never will be superior', score: 4.8, user: 'NatStylez', src:'/paisaje.jpg' },
+  { id: 'feat2', url: 'placeholder', alt: 'Elegant tech drone', description: 'Because elegance is everything', score: 4.5, user: 'TechCouture', src:'/dron.jpg' },
+  { id: 'feat3', url: 'placeholder', alt: 'Abstract pattern', description: 'Avant-garde animal print', score: 4.2, user: 'PixelPioneer', src: '/gato.jpg' },
 ];
 
 const FeaturedSection = () => {
@@ -20,7 +20,7 @@ const FeaturedSection = () => {
       transition={{ delay: 0.5, duration: 0.5 }}
     >
       <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-center text-glow-secondary">
-        Featured Styles
+        Best rated by our community
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
         {featuredImages.map((image, index) => (
@@ -36,7 +36,7 @@ const FeaturedSection = () => {
                   <img 
                     className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                     alt={image.alt}
-                   src="https://images.unsplash.com/photo-1675023112817-52b789fd2ef0" />
+                    src={image.src} />
                 </div>
               </CardHeader>
               <CardContent className="p-4 flex-grow flex flex-col justify-between">

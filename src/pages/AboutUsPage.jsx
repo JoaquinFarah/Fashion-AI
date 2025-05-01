@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -30,10 +29,10 @@ const AboutUsPage = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-cyber-text leading-relaxed">
+                <p className="leading-relaxed">
                   At Fashion AI Nexus, we're revolutionizing personal style. We believe technology can empower everyone to make confident fashion choices. Our mission is to blend cutting-edge AI with intuitive design, creating a platform where users can explore, analyze, and perfect their unique aesthetic. We're building the future of digital wardrobes, one pixel at a time. 
                 </p>
-                <p className="text-cyber-text leading-relaxed mt-4">
+                <p className="text-amber-glow leading-relaxed mt-4">
                   Through innovative machine learning algorithms and computer vision technology, we analyze trends, provide personalized recommendations, and help our users develop their signature style. Our platform learns and evolves with each interaction, becoming more attuned to individual preferences and style evolution over time.
                 </p>
               </CardContent>
@@ -51,7 +50,7 @@ const AboutUsPage = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-cyber-text leading-relaxed">
+                <p className="leading-relaxed">
                   We are a passionate collective of AI researchers, fashion enthusiasts, and software engineers united by a common goal. Our diverse team brings expertise from various fields, allowing us to tackle the complexities of style analysis with innovative solutions. We thrive on collaboration and are dedicated to pushing the boundaries of fashion technology.
                 </p>
               </CardContent>
@@ -115,4 +114,3 @@ const AboutUsPage = () => {
 };
 
 export default AboutUsPage;
-  

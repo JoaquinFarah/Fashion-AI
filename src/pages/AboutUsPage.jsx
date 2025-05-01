@@ -31,7 +31,10 @@ const AboutUsPage = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-cyber-text leading-relaxed">
-                  At Fashion AI Nexus, we're revolutionizing personal style. We believe technology can empower everyone to make confident fashion choices. Our mission is to blend cutting-edge AI with intuitive design, creating a platform where users can explore, analyze, and perfect their unique aesthetic. We're building the future of digital wardrobes, one pixel at a time.
+                  At Fashion AI Nexus, we're revolutionizing personal style. We believe technology can empower everyone to make confident fashion choices. Our mission is to blend cutting-edge AI with intuitive design, creating a platform where users can explore, analyze, and perfect their unique aesthetic. We're building the future of digital wardrobes, one pixel at a time. 
+                </p>
+                <p className="text-cyber-text leading-relaxed mt-4">
+                  Through innovative machine learning algorithms and computer vision technology, we analyze trends, provide personalized recommendations, and help our users develop their signature style. Our platform learns and evolves with each interaction, becoming more attuned to individual preferences and style evolution over time.
                 </p>
               </CardContent>
             </Card>

@@ -8,7 +8,7 @@ const CollectionSection = ({ savedImages, isFetching, handleRemoveSavedImage }) 
   return (
     <Card className="cyber-card">
       <CardHeader className="border-b border-cyber-border/50">
-        <CardTitle className="text-glow-secondary">Your Collection Gallery</CardTitle>
+        <CardTitle className="text-glow-secondary">Collection Gallery</CardTitle>
         <CardDescription className="text-cyber-muted">
           {isFetching
             ? "Syncing with the Nexus..."

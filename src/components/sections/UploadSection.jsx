@@ -18,7 +18,7 @@ const UploadSection = ({
   return (
     <Card className="cyber-card overflow-hidden">
       <CardHeader className="border-b border-cyber-border/50">
-        <CardTitle className="text-glow-primary">Upload Your Style</CardTitle>
+        <CardTitle className="text-glow-primary">Upload Your Pics</CardTitle>
         <CardDescription className="text-cyber-muted">
           Add images to analyze and save to your collection
         </CardDescription>

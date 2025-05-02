@@ -64,21 +64,7 @@ const AboutUsPage = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4, duration: 0.5 }}
         >
-          <Card className="cyber-card">
-            <CardHeader>
-              <CardTitle className="flex items-center text-glow-primary">
-                <Globe className="w-6 h-6 mr-2 text-primary" /> Global Vision (Map Placeholder)
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="map-placeholder">
-                <span>OpenStreetMap Integration Placeholder</span>
-              </div>
-              <p className="text-cyber-muted text-sm mt-2 text-center">
-                Visualizing our reach and the diverse styles across the globe.
-              </p>
-            </CardContent>
-          </Card>
+          
         </motion.div>
 
         <motion.div

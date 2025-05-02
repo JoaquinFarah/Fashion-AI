@@ -44,7 +44,7 @@ const HomePage = () => {
              animate={{ opacity: 1, y: 0 }}
              transition={{ delay: 0.3, duration: 0.5 }}
            >
-             Upload, analyze, share, rate and curate your ultimate style library. Powered by AI, styled by you.
+             Upload, analyze, share, rate and curate your ultimate style library. Powered by community, rated by you.
            </motion.p>
          </header>
 
